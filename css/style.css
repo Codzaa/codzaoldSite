@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "FontA";
+  src: url(../fonts/nasalization-rg.ttf);
+} 
+@font-face {
+  font-family: "FontB";
+  src: url(../fonts/Potra.ttf);
+} 
+@font-face {
+  font-family: "FontC";
+  src: url(../fonts/B4.ttf);
+} 
+@font-face {
+  font-family: "FontD";
+  src: url(../fonts/Bombing.ttf);
+} 
+
+
+body{
+    margin: 0;
+    font-family: "FontC", arial, sans-serif; 
+    font-size: 1rem;
+}
+
+.btext{
+    color: #f9f3f4;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.btn{
+    color: #fff;
+    text-decoration: none;
+    border: #ccc 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 4em;
+}
+
+
+.btn:hover{
+    color: #b19295;
+    border: #fff 1px solid;
+}
+
+#particles-js{
+     background-image: url('../assets/b5.jpg'); 
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe 
+    background: black; /* Old browsers 
+    background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6-15 
+    background: -webkit-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 *
+    background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 
+    */
+
+    height: 100vh;
+}
+
+.first{
+    color: #c92c2c;
+}
+
+a{
+  color: #f9f3f4;
+}
+p{
+  animation-duration: 4s; 
+  animation-delay: 3s;
+}
+
+/***Media Qeuries for Responsiveness**/
+@media screen and (min-width: 100px){
+    html{
+      font-size: 6px;
+    }
+  }
+@media screen and (min-width: 200px){
+    html{
+      font-size: 8px;
+    }
+  }
+@media screen and (min-width: 300px){
+    html{
+      font-size: 10px;
+    }
+  }
+@media screen and (min-width: 400px){
+    html{
+      font-size: 12px;
+    }
+  }
+@media screen and (min-width: 500px){
+    html{
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 570px){
+    html{
+      font-size: 15px;
+    }
+  }
+  @media screen and (min-width: 620px){
+    html{
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width: 680px){
+    html{
+      font-size: 17px;
+    }
+  }
+  @media screen and (min-width: 720px){
+    html{
+      font-size: 18px;
+    }
+  }
+  @media screen and (min-width: 800px){
+    html{
+      font-size: 19px;
+    }
+  }
+  @media screen and (min-width: 860px){
+    html{
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 920px){
+    html{
+      font-size: 21px;
+    }
+  }
+  @media screen and (min-width: 1000px){
+    html{
+      font-size: 22px;
+    }
+  }

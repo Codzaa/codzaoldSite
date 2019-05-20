@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+@font-face {
+  font-family: "FontA";
+  src: url(../fonts/nasalization-rg.ttf);
+} 
+@font-face {
+  font-family: "FontB";
+  src: url(../fonts/Potra.ttf);
+} 
+@font-face {
+  font-family: "FontC";
+  src: url(../fonts/B4.ttf);
+} 
+@font-face {
+  font-family: "FontD";
+  src: url(../fonts/Bombing.ttf);
+} 
+
+
+
+.cox-section {
+	max-width:960px;
+	margin:0 auto;
+	padding:6% 2%;
+}
+
+.cox-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.cox-grid:after {
+	clear: both;
+}
+
+.cox-grid:after,
+.cox-box:before {
+	content: '';
+    display: table;
+}
+
+.cox-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.cox-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, 
+    -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, 
+    -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, 
+    transform 0.3s ease-in-out, ;
+}
+
+.cox-box:hover {
+	transform: scale(1.05); 
+}
+
+.cox-img-1 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/2b.png);
+}
+
+.cox-img-2 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/9b.png);
+}
+
+.cox-img-3 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/6b.png);
+}
+
+.cox-img-4 { 
+ background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.10)
+    ),
+    /* bottom, image */
+    url(../images/1b.png);
+}
+
+.cox-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+
+.cox-info h3 {
+  font-family: "FontC",'Pacifico', cursive;
+  font-weight: 400;
+	color: #fff;
+	font-size: 30px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height:1.5;
+}
+
+.cox-info p {
+  font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height:2;
+}
+
+body{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe 
+background: #959595;  Old browsers 
+background: -moz-linear-gradient(top,  #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 53%, #4e4e4e 76%, #383838 87%, #1b1b1b 100%); /* FF3.6-15 
+background: -webkit-linear-gradient(top,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 
+background: linear-gradient(to bottom,  #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+background-image: url('../assets/b5.jpg'); 
+
+}
+
